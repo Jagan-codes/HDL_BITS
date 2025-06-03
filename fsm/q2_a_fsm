@@ -1,0 +1,35 @@
+module top_module (
+    input clk,
+    input reset,   // Synchronous active-high reset
+    input w,
+    output z
+);
+    parameter a=0,b=1,c=2,d=3,e=4,f=5;
+    reg [2:0]s,ns;
+    
+    always@(*)
+        begin
+            case(s)
+                a:ns<=w?b:a;
+                b:ns<=w?c:d;
+                c:ns<=w?e:d;
+                d:ns<=w?f:a;
+                e:ns<=w?e:d;
+                f:ns<=w?c:d;
+                default:
+                    ns<=a;
+            endcase
+        end
+    
+    always@(posedge clk)
+        begin
+            if(reset)
+                s<=a;
+            else
+                s<=ns;
+        end
+    
+    assign z=(s==e|s==f);
+    
+
+endmodule
