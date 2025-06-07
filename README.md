@@ -1,2 +1,3 @@
-This repository contains my solutions to the Verilog practice problems from the HDLBits website. With over 180 problems, it covers a wide range of digital design topics such as logic gates, combinational circuits, sequential logic, and finite state machines. Completing these problems helped strengthen my fundamentals in digital electronics and RTL design. I hope this serves as a useful reference for anyone learning Verilog or preparing for interviews in the VLSI domain.
-🔗 HDLBits Main Page
+#HDL BITS ANSWERS#
+This repository contains my solutions to the Verilog practice problems from the HDLBits website. With over **182** problems, it covers a wide range of digital design concepts such as logic gates, combinational circuits, sequential logic, and finite state machines (FSMs). Completing these challenges has greatly strengthened my understanding of digital electronics, RTL (Register Transfer Level) design, and hardware modeling. I hope this serves as a helpful reference for students, enthusiasts, and anyone preparing for roles in the VLSI domain or aiming to master Verilog HDL.
+[🔗 HDLBits Main Page](https://hdlbits.01xz.net/wiki/Main_Page)
